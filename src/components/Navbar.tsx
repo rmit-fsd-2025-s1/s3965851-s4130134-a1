@@ -13,7 +13,9 @@ const Navbar = () => (
       {/* <Link className="hover:bg-blue-800 px-4 py-2 rounded transition" to="/login">Sign In</Link>
       <Link className="hover:bg-blue-800 px-4 py-2 rounded transition" to="/signup">Register</Link> */}
 
-      <Link className="hover:bg-blue-800 px-4 py-2 rounded transition" to="/lecturer">Lecturer Panel</Link>
+      <Link className="hover:bg-blue-800 px-4 py-2 rounded transition" to="/apply">Apply as Tutor</Link>
+      <Link to="/panel" className="hover:bg-blue-800 px-4 py-2 rounded transition">Lecturer Panel</Link>
+
     </div>
   </nav>
 );

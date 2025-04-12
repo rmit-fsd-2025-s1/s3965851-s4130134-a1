@@ -4,7 +4,10 @@ import Header from "./components/Header.tsx";
 import Footer from "./components/Footer.tsx";
 import Navbar from "./components/Navbar.tsx";
 import LoginForm from "./components/LoginForm.tsx";
-import ApplicantList from "./components/ApplicantList.tsx";
+import TutorApplicationForm from "./components/TutorApplicationForm.tsx";
+import LecturerPanel from "./components/LecturerPanel.tsx";
+
+
 
 // Home landing page component
 const Home = () => (
@@ -70,7 +73,8 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/login" element={<LoginForm />} />
-            <Route path="/lecturer" element={<ApplicantList />} />
+            <Route path="/apply" element={<TutorApplicationForm />} />
+            <Route path="/panel" element={<LecturerPanel />} />
           </Routes>
         </main>
         <Footer />
